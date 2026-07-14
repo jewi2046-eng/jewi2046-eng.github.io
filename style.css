@@ -53,3 +53,13 @@
 }
 
 }
+
+.project-box + .project-box {
+  margin-top: 60px;
+}
+
+@media (max-width: 620px) {
+  .project-box + .project-box {
+    margin-top: 40px;
+  }
+}
